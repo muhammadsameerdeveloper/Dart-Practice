@@ -98,8 +98,25 @@ void main() {
   //   print("$table x $sum = ${table * sum}");
   // } while (sum <= 9);
 
-  int count = 10;
-  do {
-    print(count--);
-  } while (count >= 1);
+  // int count = 10;
+  // do {
+  //   print(count--);
+  // } while (count >= 1);
+
+  // int num = 1;
+
+  // do {
+  //   if (num % 2 == 0) {
+  //     print(num);
+  //   }
+  //   num++;
+  // } while (num <= 30);
+
+  // int num = 0;
+  // int sum = 0;
+  // do {
+  //   sum = num + sum;
+  //   num++;
+  // } while (num <= 50);
+  // print(sum);
 }
