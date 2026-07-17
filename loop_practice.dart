@@ -119,4 +119,18 @@ void main() {
   //   num++;
   // } while (num <= 50);
   // print(sum);
+
+  // int sum = 0;
+  // for (int i = 1; i <= 100; i++) {
+  //   sum = sum + i;
+  // }
+  // print(sum);
+
+  // for (int i = 1; i <= 20; i++) {
+  //   print("$i X $i X $i= ${i * i * i}");
+  // }
+
+  // for (int i = 1; i <= 20; i++) {
+  //   print("$i X $i = ${i * i}");
+  // }
 }
