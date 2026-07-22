@@ -8,23 +8,23 @@ void main() {
   // }
   // print(evenNumbers);
 
-  int enterNumber = 10;
-  int a = 0;
-  int b = 1;
+  // int enterNumber = 10;
+  // int a = 0;
+  // int b = 1;
 
-  print(a);
-  print(b);
+  // print(a);
+  // print(b);
 
-  for (var i = 0; ; i++) {
-    int next = a + b;
+  // for (var i = 0; ; i++) {
+  //   int next = a + b;
 
-    if (next > enterNumber) {
-      break;
-    }
+  //   if (next > enterNumber) {
+  //     break;
+  //   }
 
-    print(next);
+  //   print(next);
 
-    a = b;
-    b = next;
-  }
+  //   a = b;
+  //   b = next;
+  // }
 }
