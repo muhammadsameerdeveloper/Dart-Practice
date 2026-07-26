@@ -136,10 +136,14 @@ void main() {
   //   print("$i X $i = ${i * i}");
   // }
 
-  for (var i = 0; i < 5; i++) {
-    stdout.write(" *");
-    for (var j = 0; j < i; j++) {
-      print("*");
+  for (var i = 1; i <= 5; i++) {
+    for (var j = 1; j <= 5; j++) {
+      if (i == 1 || i == 5 || j == 1 || j == 5) {
+        stdout.write(" *");
+      } else {
+        stdout.write("  ");
+      }
     }
+    print(" ");
   }
 }
