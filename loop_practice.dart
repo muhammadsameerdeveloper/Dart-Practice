@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main() {
   // for (var i = 1; i <= 20; i++) {
   //   print(i);
@@ -133,4 +135,11 @@ void main() {
   // for (int i = 1; i <= 20; i++) {
   //   print("$i X $i = ${i * i}");
   // }
+
+  for (var i = 0; i < 5; i++) {
+    stdout.write(" *");
+    for (var j = 0; j < i; j++) {
+      print("*");
+    }
+  }
 }
