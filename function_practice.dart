@@ -155,3 +155,79 @@
 //   }
 //   return number * factoria(number: number - 1);
 // }
+
+// void main() {
+//   circleArea(7);
+// }
+
+// circleArea(int radius) {
+//   double result = 3.14 * radius * radius;
+//   print("Area = $result");
+// }
+
+// void main() {
+//   celsiusToFahrenheit(25);
+// }
+
+// celsiusToFahrenheit(int celsius) {
+//   double fahrenheit = celsius * 9 / 5 + 32;
+//   print("$fahrenheit Fahrenheit");
+// }
+
+// void main() {
+//   checkVote(17);
+// }
+
+// checkVote(int age) {
+//   if (age >= 18) {
+//     print("Eligible");
+//   } else {
+//     print("Not Eligible");
+//   }
+// }
+
+// void main() {
+//   checkNumber(0);
+// }
+
+// checkNumber(int number) {
+//   if (number >= 1) {
+//     print("Positive Number");
+//   } else if (number <= -1) {
+//     print("Negative Number");
+//   } else if (number == 0) {
+//     print("Zero Number");
+//   }
+// }
+
+// void main() {
+//   vowels("Pakistan");
+// }
+
+// vowels(String input) {
+//   var count = 0;
+//   var result = 0;
+//   for (var i = 0; i < input.length; i++) {
+//     if (input[i] == "a" ||
+//         input[i] == "e" ||
+//         input[i] == "i" ||
+//         input[i] == "o" ||
+//         input[i] == "u") {
+//       count++;
+//       result = count;
+//     }
+//   }
+//   print("Total Vowels : $result");
+// }
+
+// void main() {
+//   print(reverseString("sameer"));
+// }
+
+// reverseString(String value) {
+//   String abc = "";
+//   for (var i = value.length - 1; i >= 0; i--) {
+//     abc += value[i];
+//   }
+//   return abc;
+// }
