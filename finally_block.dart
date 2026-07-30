@@ -61,12 +61,12 @@ void main() {
   //   print("End of Program");
   // }
 
-  try {
-    int num1 = 5;
-    print(num1);
-  } catch (e) {
-    print(e);
-  } finally {
-    print("Program End");
-  }
+  // try {
+  //   int num1 = 5;
+  //   print(num1);
+  // } catch (e) {
+  //   print(e);
+  // } finally {
+  //   print("Program End");
+  // }
 }
