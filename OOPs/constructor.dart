@@ -147,16 +147,12 @@
 
 // void main() {
 //   Person obj = Person("Pakistan");
-//   obj.display();
-//   print(obj.country);
 // }
 
 // class Person {
 //   String country;
 
-//   Person(this.country);
-
-//   void display() {
+//   Person(this.country) {
 //     print("Welcome Sameer");
 //   }
 // }
@@ -170,7 +166,7 @@
 //   int price;
 //   Product(this.name, this.price);
 //   void display() {
-//     if (price > 0) {
+//     if (price <= 0) {
 //       print("Invalid Price");
 //     } else {
 //       print("Product Added");
