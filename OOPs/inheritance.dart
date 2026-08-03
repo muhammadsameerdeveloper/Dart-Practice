@@ -60,3 +60,81 @@
 // }
 
 // class Circle extends Shape {}
+
+// void main() {
+//   Customer obj = Customer();
+//   obj.bankShow();
+// }
+
+// class Bank {
+//   String bankName = "HBL";
+
+//   bankShow() {
+//     print("Bank : $bankName");
+//   }
+// }
+
+// class Customer extends Bank {}
+
+// void main() {
+//   Teacher obj = Teacher();
+// }
+
+// class Person {
+//   Person() {
+//     print("Welcome Person");
+//   }
+// }
+
+// class Teacher extends Person {}
+// void main() {
+//   Cat obj = Cat("Kitty");
+//   print(obj.name);
+// }
+
+// class Animal {
+//   String name;
+//   Animal(this.name) {
+//     this.name = name;
+//   }
+// }
+
+// class Cat extends Animal {
+//   Cat(String name) : super(name);
+// }
+// void main() {
+//   Bike obj = Bike("Honda", "CD70");
+//   print(obj.brand);
+//   print(obj.model);
+// }
+
+// class Vehicle {
+//   String brand;
+//   String model;
+
+//   Vehicle(this.brand, this.model) {}
+// }
+
+// class Bike extends Vehicle {
+//   Bike(String brand, model) : super(brand, model);
+// }
+// void main() {
+//   SavingAccount obj = SavingAccount("Ali", 50000);
+
+//   obj.display();
+// }
+
+// class Account {
+//   String accountHolder;
+//   int balance;
+//   Account(this.accountHolder, this.balance);
+//   display() {
+//     print("Account Holder : $accountHolder");
+//     print("Balance : $balance");
+//   }
+// }
+
+// class SavingAccount extends Account {
+//   SavingAccount(String accountHolder, int balance)
+//     : super(accountHolder, balance);
+// }
