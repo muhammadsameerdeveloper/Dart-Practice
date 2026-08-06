@@ -47,24 +47,27 @@
 
 // class Duck with Fly, Swim {}
 
-import 'dart:async';
 
-void main() {
-  Horse obj = Horse();
-  obj.eat();
-  obj.run();
-}
 
-class Animal {
-  eat() {
-    print("Eating...");
-  }
-}
+// void main() {
+//   Horse obj = Horse();
+//   obj.eat();
+//   obj.run();
+// }
 
-mixin Run {
-  run() {
-    print("Running...");
-  }
-}
+// class Animal {
+//   eat() {
+//     print("Eating...");
+//   }
+// }
 
-class Horse extends Animal with Run {}
+// mixin Run {
+//   run() {
+//     print("Running...");
+//   }
+// }
+
+// class Horse extends Animal with Run {}
+
+
+
